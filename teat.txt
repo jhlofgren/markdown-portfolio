@@ -1,0 +1,8 @@
+this is a teat of git for doc version control
+
+p2
+
+p3
+some p3 content. 
+
+some more. 
