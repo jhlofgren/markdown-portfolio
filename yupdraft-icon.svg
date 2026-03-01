@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a5c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#162e4a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="112" height="112" rx="22" ry="22" fill="url(#bg)" stroke="#0f2236" stroke-width="2"/>
+  
+  <!-- Snowflake icon - centered, simplified version of the logo's snowflake -->
+  <g transform="translate(60, 42)" fill="#6BAED6" stroke="#6BAED6" stroke-width="1.2" stroke-linecap="round">
+    <!-- Main vertical line -->
+    <line x1="0" y1="-14" x2="0" y2="14"/>
+    <!-- 60 degree lines -->
+    <line x1="0" y1="0" x2="12.12" y2="-7" />
+    <line x1="0" y1="0" x2="-12.12" y2="-7" />
+    <line x1="0" y1="0" x2="12.12" y2="7" />
+    <line x1="0" y1="0" x2="-12.12" y2="7" />
+    <!-- Branch tips - top -->
+    <line x1="0" y1="-14" x2="4" y2="-10"/>
+    <line x1="0" y1="-14" x2="-4" y2="-10"/>
+    <!-- Branch tips - bottom -->
+    <line x1="0" y1="14" x2="4" y2="10"/>
+    <line x1="0" y1="14" x2="-4" y2="10"/>
+    <!-- Branch tips - upper right -->
+    <line x1="12.12" y1="-7" x2="10" y2="-3"/>
+    <line x1="12.12" y1="-7" x2="8.12" y2="-7"/>
+    <!-- Branch tips - upper left -->
+    <line x1="-12.12" y1="-7" x2="-10" y2="-3"/>
+    <line x1="-12.12" y1="-7" x2="-8.12" y2="-7"/>
+    <!-- Branch tips - lower right -->
+    <line x1="12.12" y1="7" x2="10" y2="3"/>
+    <line x1="12.12" y1="7" x2="8.12" y2="7"/>
+    <!-- Branch tips - lower left -->
+    <line x1="-12.12" y1="7" x2="-10" y2="3"/>
+    <line x1="-12.12" y1="7" x2="-8.12" y2="7"/>
+  </g>
+  
+  <!-- "YD" text abbreviation -->
+  <text x="60" y="88" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="30" fill="#6BAED6" letter-spacing="2">YD</text>
+</svg>
